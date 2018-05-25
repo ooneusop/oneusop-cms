@@ -1,0 +1,14 @@
+server:
+  port: 8094
+  context-path: /
+  display-name: oneusop-cms
+management.security.enabled: false
+spring:
+logging:
+  level:
+    com.oneusop: info
+
+cms:
+  filePath: /Users/dengfanyu/git/oneusop-cms/src/main/resources/templates
+
+
